@@ -27,8 +27,7 @@ CREATE TABLE receipts (id INTEGER PRIMARY KEY AUTOINCREMENT, store TEXT, item TE
   ('Sears', 'laptop bag', 24, 40.50, 'March 24 2014');
   ```
 
- 
- ## All the attributes from all the receipts
+## All the attributes from all the receipts
 ```SELECT * FROM receipts;```
 ```
 1|Sears|PS4|1|400|January 21 2014
@@ -72,7 +71,7 @@ Toys R Us|Life
 Sears|laptop bag
 ```
 
-# All the attributes from all purchases made at Toys R Us
+## All the attributes from all purchases made at Toys R Us
 ```SELECT * FROM receipts WHERE store = "Toys R Us";```
 ```
 2|Toys R Us|XBox One|1|500|January 21 2014
