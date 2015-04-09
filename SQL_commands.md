@@ -86,6 +86,8 @@ Blood Meridian
 Ham on Rye
 ```
 
-
+## The total number of items Peter purchased
+```SELECT sum(number_of_items) FROM receipts;```
+```49```
 
 
