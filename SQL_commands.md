@@ -79,4 +79,13 @@ Sears|laptop bag
 16|Toys R Us|Life|1|25|March 24 2014
 ```
 
+## The item name of each purchase made at Strand
+```SELECT item FROM receipts WHERE store = "Strand";```
+```
+Blood Meridian
+Ham on Rye
+```
+
+
+
 
