@@ -90,5 +90,9 @@ Ham on Rye
 ```SELECT sum(number_of_items) FROM receipts;```
 49
 
+## The total number of items purchased at Sears
+```SELECT sum(number_of_items) FROM receipts WHERE store = "Sears";```
+27
+
 
 
