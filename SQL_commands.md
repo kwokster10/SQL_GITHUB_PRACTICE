@@ -94,5 +94,15 @@ Ham on Rye
 ```SELECT sum(number_of_items) FROM receipts WHERE store = "Sears";```
 27
 
+## All the attributes of receipts where Peter bought multiple items
+```SELECT * FROM receipts WHERE number_of_items > 1;```
+```
+5|Strand|Blood Meridian|3|12|March 21 2014
+6|Strand|Ham on Rye|2|12|March 21 2014
+8|Macy's|Button Down Shirt|3|28.5|March 22 2014
+10|JC Penny|tube socks|3|28|March 23 2014
+13|JC Penny|Boxer Shorts|3|20.75|March 23 2014
+17|Sears|laptop bag|24|40.5|March 24 2014
+```
 
 
