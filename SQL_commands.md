@@ -109,7 +109,30 @@ Ham on Rye
 ```SELECT AVG(number_of_items) FROM receipts WHERE store = "JC Penny";```
 1.66666666666667
 
-
-
+## Add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
+```INSERT INTO receipts (store, item, number_of_items, price, buy_date) VALUES("Schnapps Haus", "Heatstreet Maple Bourbon", 1, 40.99, "July 4 2014");```
+-if I log it now: 
+```SELECT * FROM receipts```
+```
+1|Sears|PS4|1|400|January 21 2014
+2|Toys R Us|XBox One|1|500|January 21 2014
+3|Toys R Us|TMNT Collectors Set|1|25|January 21 2014
+4|Sears|Lego Set|1|40|January 21 2014
+5|Strand|Blood Meridian|3|12|March 21 2014
+6|Strand|Ham on Rye|2|12|March 21 2014
+7|Community Books|The Last Tycoon|1|14|March 21 2014
+8|Macy's|Button Down Shirt|3|28.5|March 22 2014
+9|JC Penny|Nikes|1|100|March 23 2014
+10|JC Penny|tube socks|3|28|March 23 2014
+11|JC Penny|Reeboks|1|60|March 23 2014
+12|JC Penny|Umbrella, Red|1|10.5|March 23 2014
+13|JC Penny|Boxer Shorts|3|20.75|March 23 2014
+14|JC Penny|TMNT bedspread|1|20|March 23 2014
+15|Sears|Packers Jersey|1|50|March 24 2014
+16|Toys R Us|Life|1|25|March 24 2014
+17|Sears|laptop bag|24|40.5|March 24 2014
+18|Schnapps Haus|Heatstreet Maple Bourbon|1|40.99|July 4 2014
+```
+-Yay! It added.
 
 
