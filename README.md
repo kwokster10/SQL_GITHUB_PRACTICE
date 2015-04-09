@@ -43,5 +43,6 @@ INSERT INTO receipts (store, item, number_of_items, price, buy_date) VALUES
 16|Toys R Us|Life|1|25|March 24 2014
 17|Sears|laptop bag|24|40.5|March 24 2014
 
+// The store and item names from all the receipts
 
 
