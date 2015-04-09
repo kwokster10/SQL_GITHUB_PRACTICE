@@ -111,7 +111,9 @@ Ham on Rye
 
 ## Add a new receipt representing the purchase of a single "Heatstreet Maple Bourbon", purchased for $40.99 at "Schnapps Haus" on the most recent fourth of July.
 ```INSERT INTO receipts (store, item, number_of_items, price, buy_date) VALUES("Schnapps Haus", "Heatstreet Maple Bourbon", 1, 40.99, "July 4 2014");```
+
 -if I log it now: 
+
 ```SELECT * FROM receipts```
 ```
 1|Sears|PS4|1|400|January 21 2014
