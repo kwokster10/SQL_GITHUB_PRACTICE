@@ -24,7 +24,8 @@ CREATE TABLE receipts (id INTEGER PRIMARY KEY AUTOINCREMENT, store TEXT, item TE
   ('JC Penny', 'TMNT bedspread', 1, 20, 'March 23 2014'),
   ('Sears', 'Packers Jersey', 1, 50, 'March 24 2014'),
   ('Toys R Us', 'Life', 1, 25, 'March 24 2014'),
-  ('Sears', 'laptop bag', 24, 40.50, 'March 24 2014');```
+  ('Sears', 'laptop bag', 24, 40.50, 'March 24 2014');
+  ```
 
  
  ## All the attributes from all the receipts
